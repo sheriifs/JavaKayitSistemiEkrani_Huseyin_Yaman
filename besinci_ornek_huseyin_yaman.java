@@ -17,7 +17,11 @@ public class besinci_ornek_huseyin_yaman{
         JButton exitButton = new JButton("x");
         exitButton.addActionListener(e -> System.exit(0)); // Uygulamayı kapatır
         JPanel exitPanel = new JPanel(new FlowLayout(FlowLayout.LEFT)); // Sağ üst köşede görünmesi için
-        exitPanel.add(exitButton);
+
+            /*EXIT BUTONUM*/
+       // exitPanel.add(exitButton);
+
+
         frame.add(exitPanel, BorderLayout.NORTH); // Pencerenin kuzey (yukarı) bölgesine ekle
 
         // Kayıt yaptırmak istediğiniz kurullar
